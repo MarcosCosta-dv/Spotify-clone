@@ -14,7 +14,8 @@ body {
 .sidebarnavigation {
     background-color: #121212;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 0px 0 0 16px;
+    margin-bottom: 20px;
 }
 
 .sidebarnavigation .logo {
@@ -29,7 +30,7 @@ body {
 }
 
 .sidebar nav ul{
-    margin-top: 20px;
+    margin-top: 17px;
     padding: 0 20px 10px 20px;
 }
 
@@ -43,4 +44,10 @@ body {
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+}
+
+.sidebarnavigation__biblioteca{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 1px 0 0 16px;
 }
