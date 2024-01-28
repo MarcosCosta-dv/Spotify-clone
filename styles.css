@@ -76,6 +76,7 @@ body {
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
+    cursor: pointer;
 }
 
 .library .library__button .fa{
