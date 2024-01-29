@@ -171,7 +171,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #ff00d0, #f09432);
+    background: linear-gradient(to right, #ff00d0, #d67f2d);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
