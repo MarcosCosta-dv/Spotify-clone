@@ -27,8 +27,21 @@ document.addEventListener('input', function () {
     if (searchTerm === '') {
         resultPlaylist.classList.add('hidden');
         resultArtist.classList.remove('hidden');
-        return
+        return;
     }
-    
+
     requestApi(searchTerm);
-})
+});
+
+// Adicionando um evento para verificar se o campo de pesquisa foi esvaziado
+searchInput.addEventListener('input', function () {
+    const searchTerm = searchInput.value.toLowerCase();
+    if (searchTerm === '') {
+        goBack(); // Se estiver vazio, redireciona para index.html
+    }
+});
+
+function goBack() {
+    // Redireciona para a página inicial usando um caminho relativo
+    window.location.href = 'index.html';
+}
